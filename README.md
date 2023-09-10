@@ -1,5 +1,3 @@
-# IntegratedPDQS
+Title: Integrated Private Data Trading Systems for Data Marketplaces
 
-The implementation details of Integrated PDQS
-
-Notes: Count queries are sometimes called sum queries in the code
+Abstract: In the digital age, data is a valuable commodity, and data marketplaces offer lucrative opportunities for data owners to monetize their private data. However, data privacy is a significant concern, and differential privacy has become a popular solution to address this issue. Private data trading systems (PDQS) facilitate the trade of private data by determining which data owners to purchase data from, the amount of privacy purchased, and providing specific aggregation statistics while protecting the privacy of data owners. However, existing PDQS with separated procurement and query processes are prone to over-perturbation of private data and lack trustworthiness. To address this issue, this paper proposes a framework for PDQS with an integrated procurement and query process to avoid excessive perturbation of private data. We also present two instances of this framework, one based on a greedy approach and another based on a neural network. Our experimental results show that both of our mechanisms outperformed the separately conducted procurement and query mechanism under the same budget regarding accuracy.
